@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --text-color: #995858;
+    --bg-color: rgb(63, 60, 60);
+    --text-log: rgb(230, 33, 33);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background-color: var(--bg-color);
+    height: 100vh;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+h1{
+    color: var(--text-log);
+}
+header{
+    height: 4.5rem;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rem;
+}
+header ul{
+    display: flex;
+    gap: 2.5rem;
+}
+header ul li a:hover{
+    color: var(--text-log);
+}
+header ul li a{
+    font-size: 1rem;
+    font-weight: 600;
+    transition: ease-in-out 250ms;
+}
+main{
+    padding: 0 20rem;
+}
+section{
+    padding-top: 2rem;
+    height: 100vh;
+}
+.container{
+    height: 40rem;
+    width: 50rem;
+    background-color: var(--text-color);
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.container h2{
+    font-size: 2.8rem;
+    color: var(--text-log);
+}
+.container p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    word-spacing: 5px;
+    text-align: justify;
+}
